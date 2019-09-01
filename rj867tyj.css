@@ -1,0 +1,211 @@
+@font-face{
+        font-family: futura;
+        src: url("Futura_Heavy_font.ttf");
+}
+@font-face{
+  font-family: futura_light;
+  src: url("futura_light_bt.ttf");
+}
+       
+body {
+  
+  width: 800px;
+  margin-top: 0;
+  background: white;
+  margin-left: 0;
+  /*align-content: center;*/
+  /*border-color: white;*/
+  /*border: 1px;*/
+  /*margin*/
+  
+  
+}
+
+ /* First page effect*/
+.parallax{
+ 
+  background-image: url("http://csci571.com/hw/hw3/images/snow1.jpg") ;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: -140px -20px;
+  position: relative  ;
+  /*background-clip: border-box;*/
+  /*background-origin: content-box;*/
+  background-size: 1100px;
+  overflow: hidden;
+
+  /*top: 50px;*/
+  /*left: 30px;*/
+
+  overflow: hidden;
+  /*align-self: center;*/
+  height: 640px; 
+  /*width: 800px;  */
+  /*flex: auto;*/
+}
+
+/*First page content*/
+
+.content{
+  
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(5px);
+  
+
+}
+/*Last page effect*/
+
+.parallax_two{
+  background-image: url("http://csci571.com/hw/hw3/images/snow6.jpg");
+  background-attachment: fixed;
+  background-position: -290px 90px;
+  background-repeat: no-repeat;
+  background-size: 1300px;
+  height: 640px;
+  min-height: 200px;
+  /*transform: scale(0.9);*/
+}
+
+/*font style*/
+.white_fonts{
+  position: relative;
+  font-family: futura_light;
+  color: white;
+  
+
+}
+
+/*First page top most bar*/
+.first-page-top-div{
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+/*Left corner*/
+.snowboard-central{ 
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 8px;
+  /*padding-right: 100px;*/
+}
+
+.snowboard-central-letters{
+  font-size: 23px; 
+  color:white;
+  letter-spacing: 3px;
+  font-family: futura;
+}
+
+/*Right corner*/
+.top_icons{
+  display: inline-block;
+  vertical-align: middle;
+}
+        
+ul {
+  
+  list-style-type: none;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  font-family: futura_light;
+  letter-spacing: 2px;
+  font-size: 8px;
+  padding-right: 8px;
+  
+}
+li{
+
+  float: left;
+  color: white;
+  padding: 1px;
+
+}
+
+/*Bend the mind styling*/
+
+.big_text{
+  font-size: 60px;
+  vertical-align: middle;
+  color: white;
+  font-family: futura;
+  font-weight: bolder;
+  /*align-content: center;*/
+  width:450px;
+  margin: 75px auto 50px auto;
+  padding-left: 20px;
+  padding-top: 10px;
+  /*padding-right: 85px;*/
+}
+
+/*text below the big text*/
+.text-below-bend{
+  line-height: 1.5em;
+  font-size: 16px; 
+  color: white;
+  font-family: sans-serif;
+  margin-top: 35px;
+  padding-top: 5px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+/*learn more div*/
+.learn-more{
+  text-align: center;
+  background-color: white; 
+  color: black;
+  font-size: 10px;
+  font-family: futura;
+  /*font-weight: bold;*/
+  white-space: nowrap;
+  letter-spacing: 1px;  
+  padding: 15px;
+  margin-right: 65px;
+  margin: 20px;
+  height: 10px;
+  width: 80px;
+}
+
+/*four images*/
+
+.four-images{
+  margin: 60px;
+  height: 680px;
+}
+.img1{
+  object-fit: cover;
+  float: left;
+  margin: 1%;
+}
+
+/*text after four images*/
+.text-after-images{
+  font-size:10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color:  #636670;
+  font-weight: 450;
+  line-height: 1.5em;
+  margin: 0 auto;
+  text-align: left;
+  width: 500px;
+}
+
+/*last page text*/
+.last-text{
+height: 100%; 
+width: 100%; 
+margin: 0 auto; 
+font-family: sans-serif; 
+font-size: 16px; 
+color: white;
+}
+h4{
+  padding-left: 18px;
+}
